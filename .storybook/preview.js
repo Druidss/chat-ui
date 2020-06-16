@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components";
 import theme from "../src/theme";
 
 addDecorator( storyFn => {
-    <ThemeProvider theme={theme}>
+    return  <ThemeProvider theme={theme}>
         {storyFn()}
-    </ThemeProvider>
+    </ThemeProvider>;
 })
