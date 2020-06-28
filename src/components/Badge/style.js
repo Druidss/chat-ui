@@ -39,3 +39,4 @@ const StyledBadge = styled.div`
 `;
 
 export default StyledBadge;
+export {Count};

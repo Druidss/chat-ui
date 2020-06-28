@@ -18,10 +18,12 @@ function Badge({
           showZero = {showZero}
           {...rest}
         >
-          {children ||<Count>{count}</Count> }
+          {children || <Count>{count}</Count> }
         </StyledBadge>
     );
 }
+
+
 
 Badge.propTypes = {
   show: PropTypes.bool,

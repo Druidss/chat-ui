@@ -9,7 +9,7 @@ export default {
     component: Badge
 }
 
-export const Default = () => <Badge count={5} /> ;
+export const Default = () => <Badge count={6} />;
 
 export const Dotvariant = () => {
     return (
