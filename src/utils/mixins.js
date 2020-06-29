@@ -7,8 +7,8 @@ export const circle = (color,size = "8px") => css`
   background-color: ${color};  
 `;
 
-export const activeBar = ({barWidth="8px", shadowWidth="20px"} ={}) =>{
-  css`
+export const activeBar = ({barWidth="8px", shadowWidth="20px"} = {}) =>
+css`
     position: relative;
     &::before,
     &::after {
@@ -25,7 +25,7 @@ export const activeBar = ({barWidth="8px", shadowWidth="20px"} ={}) =>{
       width: ${barWidth};
       background: linear-gradient(
         180deg,
-        rgba(142,192,242,1) 0%,
+        rgba(142,197,242,1) 0%,
         rgba(79,157,222,1) 100%
       );  
       /* 设置背景为渐变色 */
@@ -35,9 +35,13 @@ export const activeBar = ({barWidth="8px", shadowWidth="20px"} ={}) =>{
       background: linear-gradient(
         270deg,
         rgba(41,47,76,1) 0%,
-        rgba(142,197,242,1) 100%,
+        rgba(142,197,242,1) 100%
       );
       opacity:0.6;
     }
   `;
-}
+
+
+
+
+
