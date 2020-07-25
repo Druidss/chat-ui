@@ -9,7 +9,7 @@ import face4 from "assets/images/face-male-4.jpg";
 
 
 export  default {
-    title:"UI/Avatar",
+    title:"UI 组件/Avatar",
     component: Avatar,
 } 
 
