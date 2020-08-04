@@ -5,9 +5,13 @@ export default {
     red : "#F34848",
     darkPurple:"#292F4c",
     gray2: "rgba(241,237,237,0.3)",
-    gray3: "rgba(24, 28, 47, 0.3)" ,   
+    gray3: "rgba(24, 28, 47, 0.3)",   
 
     grayDark: "#1812F",
+
+    background:"white",
+    inactiveColor:"rgba(41,47,76,0.3)",
+    inactiveColorDark:"white",
 
     xxsmall:"0.8rem",
     xsamll:"1rem",
