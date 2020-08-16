@@ -36,6 +36,7 @@ import { faPen } from "@fortawesome/free-solid-svg-icons";
 function Profile({
   showEditBtn,
   showCloseIcon = true,
+  onCloseClick,
   onEdit,
   status,
   children,
@@ -43,7 +44,7 @@ function Profile({
 }) {
   return (
     <StyledProfile {...rest}>
-      {showCloseIcon && <CloseIcon icon={Cross} />}
+      {showCloseIcon && <CloseIcon icon={Cross} onClick={onCloseClick} />}
       <Avatar
         css={`
           margin: 26px 0;

@@ -24,6 +24,7 @@ css`
       position:absolute;
       height: 100%;
       left:0;
+      transition:0.4s cubic-bezier(0.16,1,0.3,1);
       /* 先使用相对定位,再使用绝对定位 将两个伪元素移到容器的最左边 */
     }
 

@@ -1,33 +1,17 @@
 import React from "react";
-import PropTypes from "prop-types";
-import StyledButton from "./style";
+import ChatApp from "components/ChatApp";
+import { ThemeProvider } from "styled-components";
+import theme from "theme";
+import {  BrowserRouter as Router} from "react-router-dom"
 
-function Button({
-  children,
-  type = "primary",
-  shape = "circle",
-  size = "30px",
-  bgColor,
-  ...rest
-}) {
+function App() {
   return (
-    <StyledButton
-      type={type}
-      shape={shape}
-      size={size}
-      bgColor={bgColor}
-      {...rest}
-    >
-      {children}
-    </StyledButton>
+    <Router >
+      <ThemeProvider theme={theme}>
+        <ChatApp />
+      </ThemeProvider>
+    </Router>
   );
 }
 
-Button.propTypes = {
-  children: PropTypes.any,
-  type: PropTypes.oneOf(["primary"]),
-  shape: PropTypes.oneOf(["circle", "rect"]),
-  size: PropTypes.string,
-};
-
-export default Button;
+export default App;
