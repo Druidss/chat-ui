@@ -8,14 +8,14 @@ export default [
   },
   {
     id: 2,
-    name: "2012级软件工程成绩表.xls",
+    name: "2017级网络工程成绩表.xls",
     size: "378k",
     type: "excel",
     updatedAt: "2018年03月04日",
   },
   {
     id: 3,
-    name: "屏幕截图-2010-01-01.png",
+    name: "屏幕截图-2010-08-01.png",
     size: "4.8M",
     type: "image",
     updatedAt: "2012年01月24日",
@@ -36,14 +36,14 @@ export default [
   },
   {
     id: 6,
-    name: "2018毕业论文.docx",
+    name: "2020毕业论文.docx",
     size: "2.4M",
     type: "word",
     updatedAt: "2020年02月29日",
   },
   {
     id: 7,
-    name: "北京玉渊潭公园.jpg",
+    name: "南京紫峰大厦.jpg",
     size: "4.2M",
     type: "image",
     updatedAt: "2019年12月13日",

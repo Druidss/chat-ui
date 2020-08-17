@@ -12,7 +12,7 @@ export default [
   {
     id: 1,
     avatar: face1,
-    name: "李铭浩",
+    name: "AdrianYang",
   },
   {
     id: 2,

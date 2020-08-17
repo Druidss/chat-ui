@@ -10,11 +10,11 @@ export default [
   {
     id: 1,
     avatarSrc: face1,
-    name: "李铭浩",
+    name: "AdrianYang",
     status: "online",
     statusText: "在线",
     time: "3 小时之前",
-    message: "即使爬到最高的山上，一次也只能脚踏实地地迈一步",
+    message: "你们的德语教材也是Aspekte吗?",
     unreadCount: 2,
     replied: false,
   },
@@ -32,7 +32,7 @@ export default [
   {
     id: 3,
     avatarSrc: face3,
-    name: "慕容天宇",
+    name: "word.execute(me)",
     status: "offline",
     statusText: "离线",
     time: "早上 06:18",
@@ -43,7 +43,7 @@ export default [
   {
     id: 4,
     avatarSrc: face4,
-    name: "郭文菲",
+    name: "KKkolosov",
     status: "online",
     statusText: "在线",
     time: "2018年9月5日",
