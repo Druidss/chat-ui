@@ -1,7 +1,7 @@
 
 import styled, { css } from "styled-components";
 import { circle } from "utils/mixins";
-import theme from "theme";
+
 
 const variants = {
   dot:css`

@@ -13,7 +13,7 @@ import "styled-components/macro";
 import face from "assets/images/face-male-1.jpg";
 import Avatar from "components/Avatar";
 import Paragraph from "components/Paragraph";
-import Emoji from "components/Emoji";
+// import Emoji from "components/Emoji";
 import Icon from "components/Icon";
 
 import {
@@ -89,7 +89,7 @@ function Profile({
           margin-bottom: 18px;
         `}
       >
-        江苏省 南京市
+        Trier Germany
       </Paragraph>
       <Paragraph
         css={`
@@ -97,7 +97,7 @@ function Profile({
         `}
       >
         帮助客户构建网站，并协助在社交网站上进行推广{" "}
-        <Emoji label="fire">🔥</Emoji>
+        {/* <Emoji label="fire"> <span>🔥</span> </Emoji> */}
       </Paragraph>
       <SocialLinks>
         <Icon.Social
@@ -114,9 +114,9 @@ function Profile({
         `}
       />
       <ContactSection>
-        <Description label="联系电话">+86 18261163936</Description>
-        <Description label="电子邮件">druids8012@gmail.com</Description>
-        <Description label="个人网站"> https://rainbridge.now.sh/</Description>
+        <Description label="TEL">+86 18261163936</Description>
+        <Description label="Email">druids8012@gmail.com</Description>
+        <Description label="My Blog"> https://rainbridge.now.sh/</Description>
       </ContactSection>
       <Seperator
         css={`
@@ -126,7 +126,7 @@ function Profile({
       <AlbumSection>
         <AlbumTitle>
           <Text type="secondary">相册（31）</Text>
-          <a>查看全部</a>
+          <a href="#/">查看全部</a>
         </AlbumTitle>
         <Album>
           <Photo src={photo1} alt="" />

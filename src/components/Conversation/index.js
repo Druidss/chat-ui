@@ -4,7 +4,7 @@ import StyledConversation, { Conversations, MyChatBubble } from "./style";
 import TitleBar from "components/TitleBar";
 import ChatBubble from "components/ChatBubble";
 import VoiceMessage from "components/VoiceMessage";
-import Emoji from "components/Emoji";
+// import Emoji from "components/Emoji";
 import Footer from "components/Footer";
 import { useSpring } from "react-spring";
 
@@ -46,8 +46,7 @@ function Conversation({ onAvatarClick, onVideoClicked, children, ...rest }) {
           <VoiceMessage time="01:24" />
         </ChatBubble>
         <MyChatBubble time="昨天 下午16：30">
-          明天约一把王者荣耀，不连赢5把不罢休 🤘
-          <Emoji label="smile">🤘</Emoji>
+          明天约一把王者荣耀，不连赢5把不罢休
         </MyChatBubble>
       </Conversations>
       <Footer animeProps={ftAnimeProps} />

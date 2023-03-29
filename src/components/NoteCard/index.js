@@ -1,4 +1,4 @@
-import note1 from "assets/images/note-1.jpg";
+// import note1 from "assets/images/note-1.jpg";
 import PropTypes from "prop-types";
 import React from "react";
 import StyledNoteCard, {

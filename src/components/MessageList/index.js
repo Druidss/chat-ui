@@ -2,18 +2,18 @@ import React from "react";
 import PropTypes from "prop-types";
 import StyledMessageList, { ChatList } from "./style";
 
-import { ReactComponent as Plus } from "assets/icons/plus.svg";
-import Filter from "components/Filter";
-import Select from "components/Select";
-import Option from "components/Option";
-import Button from "components/Button";
-import Icon from "components/Icon";
-import Input from "components/Input";
+// import { ReactComponent as Plus } from "assets/icons/plus.svg";
+// import Filter from "components/Filter";
+// import Select from "components/Select";
+// import Option from "components/Option";
+// import Button from "components/Button";
+// import Icon from "components/Icon";
+// import Input from "components/Input";
 import MessageCard from "components/MessageCard";
 
-import face1 from "assets/images/face-male-1.jpg";
+// import face1 from "assets/images/face-male-1.jpg";
 import FilterList from "components/FilterList";
-import { useTrail, animated } from "react-spring";
+import { animated } from "react-spring";
 import useStaggeredList from "hooks/useStaggeredList";
 import messageData from "data/messages";
 
