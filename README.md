@@ -1,6 +1,19 @@
+# Real-time Chat App
+This is a real-time chat application built with React and Hooks. It also utilizes Styled-Components for powerful component styling, Storybook for component documentation and easier team collaboration, React Router for routing control, React Spring for animation implementation, and follows React component design principles.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+## Features
+- Real-time chat with other users
+- Clean and intuitive user interface
+- Powerful component styling with Styled-Components
+- Component documentation and easier team collaboration with Storybook
+- Routing control with React Router
+- Animation implementation with React Spring
+- Follows React component design principles
+
+
+## Installation
 
 In the project directory, you can run:
 
